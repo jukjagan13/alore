@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /alore
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        proc:
+          param_null_passing: true
+    hibernate:
+      ddl-auto: update
+
+#jdbc:mysql://localhost:3306/booking?useSSL=false&noAccessToProcedureBodies=true&autoReconnect=True&reWriteBatchedInserts=true
