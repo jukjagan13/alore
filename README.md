@@ -1,0 +1,2 @@
+# alore
+Alore Project
